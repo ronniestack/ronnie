@@ -65,6 +65,15 @@ body {
     border: none;
 }
 
+#hero,
+#about,
+#skills,
+#projects,
+#experience,
+#contact {
+    scroll-margin-top: 50px;
+}
+
 /* ===== LAYOUT ===== */
 .container {
     width: min(900px, 90%);
