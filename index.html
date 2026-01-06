@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Junior Web Developer | Resume Portfolio</title>
+    <meta name="description" content="One-page resume-style portfolio of a Junior Web Developer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="header">
+        <nav class="nav container" aria-label="Primary Navigation">
+            <span class="logo">Ronnie G. Calleda</span>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <h1>Ronnie G. Calleda</h1>
+            <h2>Junior Web Developer</h2>
+            <p>Building clean, responsive, and user-friendly web experiences.</p>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+        <div class="container">
+            <h3 class="section-title">About Me</h3>
+            <p>
+                Junior web developer with a strong foundation in front-end technologies.
+                Passionate about clean code, accessibility, and responsive design.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title">Skills</h3>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <span>HTML5</span>
+                    <div class="progress"><div style="width:90%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>CSS3</span>
+                    <div class="progress"><div style="width:85%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress"><div style="width:75%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Git & GitHub</span>
+                    <div class="progress"><div style="width:70%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h3 class="section-title">Projects</h3>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h4>Portfolio Website</h4>
+                    <p>Responsive resume-style portfolio using vanilla technologies.</p>
+                    <small>HTML • CSS • JavaScript</small>
+                </article>
+
+                <article class="project-card">
+                    <h4>Todo App</h4>
+                    <p>Simple task manager with local storage.</p>
+                    <small>JavaScript • CSS</small>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h3 class="section-title">Experience & Education</h3>
+
+            <div class="timeline">
+                <div>
+                    <h4>Bachelor of Information Technology</h4>
+                    <span>2021 – 2025</span>
+                    <p>Focused on web development and software fundamentals.</p>
+                </div>
+
+                <div>
+                    <h4>Web Development Intern</h4>
+                    <span>2024</span>
+                    <p>Assisted in building responsive websites and UI components.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h3 class="section-title">Contact</h3>
+
+            <form id="contactForm" novalidate>
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="email" id="email" placeholder="Email" required />
+                <textarea id="message" placeholder="Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p class="form-msg" aria-live="polite"></p>
+            </form>
+
+            <div class="contact-links">
+                <p>Email: john@example.com</p>
+                <p>GitHub: github.com/username</p>
+                <p>LinkedIn: linkedin.com/in/username</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>© 2025 John Doe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
